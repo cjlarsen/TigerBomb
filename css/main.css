@@ -54,7 +54,7 @@ div {
 
 .line {
 	width: 100%;
-	background-color: #222;
+	background-color: #fff;
 	height: 1px;
 	margin: 10px 0 10px 0;
 }
@@ -132,27 +132,23 @@ About
 .main .about {
 	height: 50vh;
 	margin: 0;
-	padding: 20px 20% 20px 20%;
-	background-color: #fff;
+	padding: 20% 20% 20px 20%;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	background-image: url('../imgs/img-about-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center top;
 }
 
 /*
- Old, maybe remove - Chris
-.main .content .container {
-	margin: 0 auto;
-	max-width: 900px;
-}
+Contact
+*/
+.main .contact {
 
-.app .app-description .left {
-	margin: 0 15px 0 0;
-	float: left;
-	max-width: 180px;
 }
-
-.app .app-description .right {
-	float: left;
-	max-width: 700px;
-}*/
 
 
 
