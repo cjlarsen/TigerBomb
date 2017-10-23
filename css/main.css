@@ -35,6 +35,12 @@ a {
 	font-style: italic;
 }
 
+div {
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
 .clearfix:after {
   content: "";
   display: table;
@@ -97,9 +103,41 @@ Content
 */
 .main .content {
 	width: 100%;
-	height: 100%;
 }
 
+/*
+Work
+*/
+.main .work {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+}
+
+.main .work .project {
+	width: 33.33%;
+	height: 250px;
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+	display: inline-block;
+	float: left;
+}
+
+/*
+About
+*/
+.main .about {
+	height: 50vh;
+	margin: 0;
+	padding: 20px 20% 20px 20%;
+	background-color: #fff;
+}
+
+/*
+ Old, maybe remove - Chris
 .main .content .container {
 	margin: 0 auto;
 	max-width: 900px;
@@ -114,31 +152,7 @@ Content
 .app .app-description .right {
 	float: left;
 	max-width: 700px;
-}
+}*/
 
-/*
-Footer
-*/
 
-.footer {
-	margin-top: 30px;
-	height: 200px;
-	background-color: #333;
-}
-
-.footer .container {
-	margin: 0 auto;
-	max-width: 900px;
-}
-
-.footer .container h2 {
-	background-color: transparent;
-	padding: 0;
-	margin: 20px 0 0 0;
-	font: bold 24px Arial, Helvetica, sans-serif;
-	color: #ccc;
-}
-.footer .container p {
-	color: #eee;
-}
 
