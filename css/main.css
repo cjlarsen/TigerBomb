@@ -1,13 +1,13 @@
 body {
 	background-color: #666;
 	margin: 0px;
-	font-family: 'Josefin Sans', Arial, sans-serif;
+	/*font-family: 'Josefin Sans', Arial, sans-serif;*/
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 h1 {
 	margin: 0;
-	font: normal 75px 'Josefin Sans', Arial, Helvetica, sans-serif;
-	color: #fff;
+	font: normal 80px 'Nunito Sans', Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -118,7 +118,7 @@ Work
 
 .main .work .project {
 	width: 33.33%;
-	height: 250px;
+	height: 350px;
 	margin: 0;
 	padding: 0;
 	background-color: #eee;
@@ -134,7 +134,8 @@ About
 	margin: 0;
 	padding: 20% 20% 20px 20%;
 	background-color: #000;
-	color: #fff;
+	color: #ffc000;
+	letter-spacing: 8px;
 	text-align: center;
 	background-image: url('../imgs/img-about-bg.jpg');
 	background-repeat: no-repeat;
@@ -147,8 +148,17 @@ About
 Contact
 */
 .main .contact {
-
+	min-height: 300px;
+	width: 100%;
+	background-color: #111;
 }
 
+.main .contact .contact-container{
+	height: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+}
 
 
