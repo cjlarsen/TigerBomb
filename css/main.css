@@ -59,6 +59,12 @@ div {
 	margin: 10px 0 10px 0;
 }
 
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
 /*
 Nav
 */
@@ -124,6 +130,78 @@ Work
 	background-color: #eee;
 	display: inline-block;
 	float: left;
+}
+
+.main .work .tregs-log {
+	position: relative;
+	background-color: #fff;
+	text-align: center;
+}
+
+.main .work .strength-coach {
+	position: relative;
+	background-color: #ccc;
+	text-align: center;
+}
+
+.main .work .graphic-nature {
+	position: relative;
+	background-color: #000;
+	text-align: center;
+}
+
+.main .work .project img {
+	max-width: 50%;
+	max-height: 50%;
+	vertical-align: middle;
+}
+
+.tregs-log:after {
+	content: '';
+    position: absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.75);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    cursor: pointer;
+}
+
+.tregs-log:hover:after {
+    opacity:1;
+}
+
+.strength-coach:after {
+	content: '';
+    position: absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.75);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    cursor: pointer;
+}
+
+.strength-coach:hover:after {
+    opacity:1;
+}
+
+.graphic-nature:after {
+	content: '';
+    position: absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(255,255,255,0.5);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    cursor: pointer;
+}
+
+.graphic-nature:hover:after {
+    opacity:1;
 }
 
 /*
