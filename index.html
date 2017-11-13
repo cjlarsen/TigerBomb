@@ -46,19 +46,19 @@
 			<h2>have an idea you want out in the wild?</h2>
 			
 			<div class="form-container">
-				<form action="/action_page.php">
+				<form action="php/contact.php" method="POST">
 
-					<label for="fname">First Name</label>
-					<input type="text" id="fname" name="firstname" placeholder="first name">
+					<label for="email">Email</label>
+					<input type="text" id="email" name="email" placeholder="email">
 
-					<label for="lname">Last Name</label>
-					<input type="text" id="lname" name="lastname" placeholder="last name">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" placeholder="name">
 
 
-					<label for="subject">Info</label>
-					<textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+					<label for="message">Message</label>
+					<textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
 
-					<input type="submit" value="Submit">
+					<input type="submit" name="submit" value="Submit">
 
 	  			</form>
 	  		</div>
