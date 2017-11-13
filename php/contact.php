@@ -9,7 +9,8 @@ if(isset($_POST['submit'])){
     if(!empty($email) && !empty($name) && !empty($message)){
         
         if(filter_var($email, FILTER_VALIDATE_EMAIL) === false){
-            die("<span class='success'>Invalid email</span>");
+            echo '<script type="text/javascript">alert("Invalid email")</script>';
+            echo "<script>window.location = 'http://www.tigerbomb.co'</script>";
         }else{
             // Recipient email
             $toEmail = 'chris@christopherlarsen.com';
@@ -29,13 +30,16 @@ if(isset($_POST['submit'])){
             
             // Send email
             if(mail($toEmail,$emailSubject,$htmlContent,$headers)){
-                die("<span class='success'>Success! Your message has been sent.</span>");
+                echo '<script type="text/javascript">alert("Message sent")</script>';
+                echo "<script>window.location = 'http://www.tigerbomb.co'</script>";
             }else{
-                die("<span class='success'>Message failed to send.</span>");
+                echo '<script type="text/javascript">alert("Message failed")</script>';
+                echo "<script>window.location = 'http://www.tigerbomb.co'</script>";
             }
         }
     }else{
-        die("<span class='success'>Not all fields filled out.</span>");
+        echo '<script type="text/javascript">alert("Missing fields")</script>';
+        echo "<script>window.location = 'http://www.tigerbomb.co'</script>";
     }
 }
 ?>
