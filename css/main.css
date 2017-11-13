@@ -31,8 +31,6 @@ p {
 
 a {
 	text-decoration: none;
-	color: #b6b6b6;
-	font-style: italic;
 }
 
 div {
@@ -93,6 +91,10 @@ Nav
 	transition: ease 0.3s;
 }
 
+.main .nav li a {
+	color: #fff;
+}
+
 .main .nav li:hover {
 	box-shadow: inset 200px 0 0 0 #000;
 }
@@ -123,7 +125,7 @@ Content
 /*
 Work
 */
-.main .work {
+#work {
 	width: 100%;
 	height: 100%;
 	margin: 0px;
@@ -131,7 +133,7 @@ Work
 	overflow: auto;
 }
 
-.main .work .project {
+#work .project {
 	width: 33.33%;
 	height: 350px;
 	margin: 0;
@@ -141,25 +143,25 @@ Work
 	float: left;
 }
 
-.main .work .tregs-log {
+#work .tregs-log {
 	position: relative;
 	background-color: #fff;
 	text-align: center;
 }
 
-.main .work .strength-coach {
+#work .strength-coach {
 	position: relative;
 	background-color: #ccc;
 	text-align: center;
 }
 
-.main .work .graphic-nature {
+#work .graphic-nature {
 	position: relative;
 	background-color: #000;
 	text-align: center;
 }
 
-.main .work .project img {
+#work .project img {
 	max-width: 50%;
 	max-height: 50%;
 	vertical-align: middle;
@@ -216,7 +218,7 @@ Work
 /*
 About
 */
-.main .about {
+#about {
 	height: 50vh;
 	margin: 0;
 	padding: 20% 20% 20px 20%;
@@ -234,7 +236,7 @@ About
 /*
 Contact
 */
-.main .contact {
+#contact {
 	height: 100%;
 	width: 100%;
 	background-color: #111;
@@ -242,7 +244,7 @@ Contact
 
 }
 
-.main .contact .contact-container{
+#contact .contact-container{
 	height: 100%;
 	max-width: 960px;
 	margin: 0 auto;
@@ -250,7 +252,7 @@ Contact
 	text-align: center;
 }
 
-.main .contact .contact-container .form-container {
+#contact .contact-container .form-container {
 	margin: 20px 0 0 0;
 	padding: 0;
 	height: 100%;
