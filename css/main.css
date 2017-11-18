@@ -287,5 +287,24 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+/*side panel*/
+#slideout {
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  color: #333;
+  position: fixed;
+  top: 100px;
+  left: -520px;
+  width: 500px;
+  height: 500px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  z-index: 100;
+}
 
+#slideout.on {
+  left: 0;
+}
 
