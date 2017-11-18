@@ -17,6 +17,10 @@
  		</div>
   	</div>
 
+  	<div id="overlay">
+  		&nbsp;
+  	</div>
+
 
 	<div class="header">
 		<div class="nav">
@@ -78,10 +82,12 @@
 	<script type="text/javascript">
 		$('.tregs-log').click(function(){
   			$('#slideout').addClass('on');
+  			$('#overlay').css("display","block");
 		});
 
 		$('.close').click(function(){
   			$('#slideout').removeClass('on');
+  			$('#overlay').css("display","none");
 		});
 	</script>
 </body>
