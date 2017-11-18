@@ -289,18 +289,19 @@ input[type=submit]:hover {
 
 /*side panel*/
 #slideout {
-  background: #fff;
-  box-shadow: 0 0 5px rgba(0,0,0,.3);
-  color: #333;
-  position: fixed;
-  left: -30vw;
-  width: 30vw;
-  height: 100vh;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  z-index: 100;
+	padding: 20px;
+  	background: #fff;
+  	box-shadow: 0 0 5px rgba(0,0,0,.3);
+  	color: #333;
+  	position: fixed;
+  	left: -35vw;
+  	width: 30vw;
+  	height: 100vh;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	z-index: 100;
 }
 
 #slideout.on {
