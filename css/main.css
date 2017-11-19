@@ -294,8 +294,8 @@ input[type=submit]:hover {
   	box-shadow: 0 0 5px rgba(0,0,0,.3);
   	color: #eee;
   	position: fixed;
-  	left: -35vw;
-  	width: 30vw;
+  	left: -45vw;
+  	width: 40vw;
   	height: 100vh;
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
@@ -310,6 +310,8 @@ input[type=submit]:hover {
 
 #slideout .close {
 	cursor: pointer;
+	margin: 0 0 20px 0;
+	float: right;
 }
 
 #overlay {
