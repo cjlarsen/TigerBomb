@@ -84,15 +84,39 @@
 </div>
 
 	<script type="text/javascript">
+		
+		// Open protfolio slide
 		$('.tregs-log').click(function(){
-  			$('#slideout').addClass('on');
-  			$('#overlay').css("display","block");
+			open();
 		});
 
-		$('.close').click(function(){
-  			$('#slideout').removeClass('on');
-  			$('#overlay').css("display","none");
+		$('.strength-coach').click(function(){
+ 			open();
 		});
+
+		$('.graphic-nature').click(function(){
+  			open();
+		});
+
+		// Close 
+		$('.close').click(function(){
+  			close();
+		});
+
+		$('#overlay').click(function(){
+  			close();
+		});
+
+		function close() {
+			$('#slideout').removeClass('on');
+  			$('#overlay').css("display","none");
+		}
+
+		function open() {
+			$('#slideout').addClass('on');
+  			$('#overlay').css("display","block");
+		}
+
 	</script>
 </body>
 </html>
